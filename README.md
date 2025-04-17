@@ -72,6 +72,12 @@ python main.py --model pointKANElite
 # please add other paramemters as you wish.
 ```
 
+## Dataset
+
+All the datasets can be obtained from the following link.
+[dataset](https://pan.baidu.com/s/1fqmSGecqWkHLaCQPMPA7kQ)
+extraction code: 3qfd
+
 ## Acknowledgment
 
 Our implementation is mainly based on the following codebases. We gratefully thank the authors for their wonderful works.
@@ -80,10 +86,6 @@ Our implementation is mainly based on the following codebases. We gratefully tha
 [Kolmogorov-Arnold Networks](https://github.com/Blealtan/efficient-kan),
 [Kolmogorov-Arnold Transformer](https://github.com/Adamdad/kat),
 [Pointnet2_PyTorch](https://github.com/erikwijmans/Pointnet2_PyTorch)
-
-
-
-
 
 
 ## LICENSE
