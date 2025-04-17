@@ -1,9 +1,9 @@
 # KAN or MLP? Point Cloud Shows the Way Forward
 
-
 <div align="center">
-  <img src="image/pointKAN.pdf" width="650px" height="300px">
+  <img src="image/pointKAN.png" width="650px" height="300px">
 </div>
+
 
 Illustration of PointKAN. (a) Overview of one stage in PointKAN. The entire model consists of four stages (N = 4). In each stage, local features are first transformed using a Geometric Affine Module (GAM). Grouped features are then extracted during the Local Feature Processing (LFP). After feature aggregation, global information is supplemented, and finally, overall features are obtained through the Global Feature Processing (GFP). By repeating multiple stages, the receptive field is gradually enlarged, enabling the model to obtain complete geometric information of the point cloud. (b) Group-Norm details. It mainly consists of three parts: normalization, affine transformation, and feature concatenation. (c-d) Details of the KAN Block and KAN Layer. (e) The Residual Point (ResP) Block is composed of MLP, Batch Normalization, and activation function (ReLU).
 
