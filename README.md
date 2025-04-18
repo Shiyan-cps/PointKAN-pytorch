@@ -29,7 +29,7 @@ pip install -e rational_kat_cu/.
 ## Useage
 
 ### Classification ModelNet40
-**Train**: The dataset has been already downloaded, run following command to train.
+**Train**: After downloading the dataset, run the following commands to train. 
 
 By default, it will create a folder named "checkpoints/{modelName}-{msg}-{randomseed}", which includes args.txt, best_checkpoint.pth, last_checkpoint.pth, log.txt, out.txt.
 ```bash
@@ -40,8 +40,6 @@ python main.py --model pointKAN
 ```
 
 ### Classification ScanObjectNN
-
-The dataset has been already downloaded
 
 - Train pointKAN 
 ```bash
@@ -54,8 +52,6 @@ By default, it will create a fold named "checkpoints/{modelName}-{msg}-{randomse
 
 
 ### Part segmentation
-The dataset has been already downloaded
-
 - Train pointKAN
 ```bash
 # train pointKAN
