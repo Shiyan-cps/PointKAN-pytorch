@@ -1,4 +1,9 @@
 # KAN or MLP? Point Cloud Shows the Way Forward
+<div style="display: flex; justify-content: center; align-items: center;">
+  <a href="https://arxiv.org/abs/2504.13593" style="margin: 0 2px;">
+    <img src='https://img.shields.io/badge/arXiv-2504.13593-red?style=flat&logo=arXiv&logoColor=red' alt='arxiv'>
+  </a>
+
 
 <div align="center">
   <img src="image/pointKAN.png" width="650px" height="300px">
@@ -74,6 +79,19 @@ All the datasets can be obtained from the following link.
 [dataset](https://pan.baidu.com/s/1fqmSGecqWkHLaCQPMPA7kQ)
 extraction code: 3qfd
 
+## Citation
+If you find our work helpful for your research, please consider citing our work.
+```
+@misc{shi2025kanmlppointcloud,
+      title={KAN or MLP? Point Cloud Shows the Way Forward}, 
+      author={Yan Shi and Qingdong He and Yijun Liu and Xiaoyu Liu and Jingyong Su},
+      year={2025},
+      eprint={2504.13593},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.13593}, 
+}
+```
 ## Acknowledgment
 
 Our implementation is mainly based on the following codebases. We gratefully thank the authors for their wonderful works.
