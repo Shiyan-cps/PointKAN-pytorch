@@ -4,15 +4,17 @@
     <img src='https://img.shields.io/badge/arXiv-2504.13593-red?style=flat&logo=arXiv&logoColor=red' alt='arxiv'>
   </a>
 
+## 💥News
+- **`2025/4/21`**: Our [**PointKAN paper**](https://arxiv.org/pdf/2504.13593) is available.
+- **`2025/4/17`**: All the codes are released.
 
+## 📖Pipeline
 <div align="center">
   <img src="image/pointKAN.png" width="650px" height="300px">
 </div>
-
-
 Illustration of PointKAN. (a) Overview of one stage in PointKAN. The entire model consists of four stages (N = 4). In each stage, local features are first transformed using a Geometric Affine Module (GAM). Grouped features are then extracted during the Local Feature Processing (LFP). After feature aggregation, global information is supplemented, and finally, overall features are obtained through the Global Feature Processing (GFP). By repeating multiple stages, the receptive field is gradually enlarged, enabling the model to obtain complete geometric information of the point cloud. (b) Group-Norm details. It mainly consists of three parts: normalization, affine transformation, and feature concatenation. (c-d) Details of the KAN Block and KAN Layer. (e) The Residual Point (ResP) Block is composed of MLP, Batch Normalization, and activation function (ReLU).
 
-## Install
+## 🛠️ Install
 
 ```bash
 # step 1. clone this repo
@@ -31,7 +33,7 @@ pip install -e rational_kat_cu/.
 ```
 
 
-## Useage
+##  🚀Useage
 
 ### Classification ModelNet40
 **Train**: After downloading the dataset, run the following commands to train. 
@@ -73,13 +75,13 @@ python main.py --model pointKANElite
 # please add other paramemters as you wish.
 ```
 
-## Dataset
+## 🧐Dataset
 
 All the datasets can be obtained from the following link.
 [dataset](https://pan.baidu.com/s/1fqmSGecqWkHLaCQPMPA7kQ)
 extraction code: 3qfd
 
-## Acknowledgment
+## 🤝Acknowledgment
 
 Our implementation is mainly based on the following codebases. We gratefully thank the authors for their wonderful works.
 
@@ -89,10 +91,10 @@ Our implementation is mainly based on the following codebases. We gratefully tha
 [Pointnet2_PyTorch](https://github.com/erikwijmans/Pointnet2_PyTorch)
 
 
-## LICENSE
+## 👉 LICENSE
 PointKAN is under the Apache-2.0 license. 
 
-## Citation
+## 📡Citation
 If you find our work helpful for your research, please consider citing our work.
 ```
 @misc{shi2025kanmlppointcloud,
