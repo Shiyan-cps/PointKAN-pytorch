@@ -79,6 +79,19 @@ All the datasets can be obtained from the following link.
 [dataset](https://pan.baidu.com/s/1fqmSGecqWkHLaCQPMPA7kQ)
 extraction code: 3qfd
 
+## Acknowledgment
+
+Our implementation is mainly based on the following codebases. We gratefully thank the authors for their wonderful works.
+
+[PointMLP](https://github.com/ma-xu/pointMLP-pytorch),
+[Kolmogorov-Arnold Networks](https://github.com/Blealtan/efficient-kan),
+[Kolmogorov-Arnold Transformer](https://github.com/Adamdad/kat),
+[Pointnet2_PyTorch](https://github.com/erikwijmans/Pointnet2_PyTorch)
+
+
+## LICENSE
+PointKAN is under the Apache-2.0 license. 
+
 ## Citation
 If you find our work helpful for your research, please consider citing our work.
 ```
@@ -92,15 +105,3 @@ If you find our work helpful for your research, please consider citing our work.
       url={https://arxiv.org/abs/2504.13593}, 
 }
 ```
-## Acknowledgment
-
-Our implementation is mainly based on the following codebases. We gratefully thank the authors for their wonderful works.
-
-[PointMLP](https://github.com/ma-xu/pointMLP-pytorch),
-[Kolmogorov-Arnold Networks](https://github.com/Blealtan/efficient-kan),
-[Kolmogorov-Arnold Transformer](https://github.com/Adamdad/kat),
-[Pointnet2_PyTorch](https://github.com/erikwijmans/Pointnet2_PyTorch)
-
-
-## LICENSE
-PointKAN is under the Apache-2.0 license. 
