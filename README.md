@@ -97,13 +97,10 @@ PointKAN is under the Apache-2.0 license.
 ## 📡Citation
 If you find our work helpful for your research, please consider citing our work.
 ```
-@misc{shi2025kanmlppointcloud,
-      title={KAN or MLP? Point Cloud Shows the Way Forward}, 
-      author={Yan Shi and Qingdong He and Yijun Liu and Xiaoyu Liu and Jingyong Su},
-      year={2025},
-      eprint={2504.13593},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2504.13593}, 
+@article{shi2025kan,
+  title={KAN or MLP? Point Cloud Shows the Way Forward},
+  author={Shi, Yan and He, Qingdong and Liu, Yijun and Liu, Xiaoyu and Su, Jingyong},
+  journal={arXiv preprint arXiv:2504.13593},
+  year={2025}
 }
 ```
